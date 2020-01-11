@@ -20,7 +20,7 @@ a {
 .hd {
   width: 100%;
   height: 120px;
-  background-image: url("./data/hd_bg.jpg");
+  background-image: url("../data/hd_bg.jpg");
   border-bottom: 3px solid #333;
 }
 .hd_wrap {
@@ -30,7 +30,7 @@ a {
 }
 .slogo {
   display: block;
-  background-image: url("./img/ico-sprite-common-gnb.png");
+  background-image: url("../img/ico-sprite-common-gnb.png");
   background-position: 0px -20px;
   margin-top: 13px;
   width: 85px;
@@ -41,7 +41,7 @@ a {
   font-size: 14px;
   line-height: 50px;
   padding-left: 25px;
-  background-image: url("./img/spk1.png");
+  background-image: url("../img/spk1.png");
   color: #fff;
   background-repeat: no-repeat;
   background-position: 0px center;
@@ -69,7 +69,7 @@ a {
   display: block;
   width: 134px;
   height: 45px;
-  background-image: url("./data/header_logo.png");
+  background-image: url("../data/header_logo.png");
   margin-top: 10px;
   float: left;
 }
@@ -623,13 +623,13 @@ a {
   text-indent: 50px;
 }
 .col_box .sns_thumb li a.sns1 {
-  background-image: url("./img/ico_instagram.png");
+  background-image: url("../data/ico_youtube.png");
 }
 .col_box .sns_thumb li a.sns2 {
-  background-image: url("./img/ico_kakaoplus.png");
+  background-image: url("../data/ico_kakaoplus.png");
 }
 .col_box .sns_thumb li a.sns3 {
-  background-image: url("./img/ico_facebook.png");
+  background-image: url("../data/ico_facebook.png");
 }
 
 #ft {
