@@ -16,6 +16,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: #000;
 }
 .hd {
   width: 100%;
@@ -28,7 +29,7 @@ a {
   width: 1000px;
   margin: 0 auto;
 }
-.slogo {
+/* .slogo {
   display: block;
   background-image: url("../img/ico-sprite-common-gnb.png");
   background-position: 0px -20px;
@@ -36,12 +37,12 @@ a {
   width: 85px;
   height: 24px;
   float: left;
-}
+} */
 .info_box {
   font-size: 14px;
   line-height: 50px;
   padding-left: 25px;
-  background-image: url("../img/spk1.png");
+  background-image: url("../data/spk1.png");
   color: #fff;
   background-repeat: no-repeat;
   background-position: 0px center;
@@ -80,7 +81,7 @@ a {
 }
 #mainmenu li {
   float: left;
-  width: 130px;
+  width: 160px;
   position: relative;
 }
 #mainmenu li .sub li {
@@ -102,11 +103,11 @@ a {
 }
 #mainmenu li a {
   display: block;
-  color: #444;
   line-height: 40px;
   font-size: 14px;
 }
 #mainmenu li a.dp1 {
+  font-weight: bold;
   font-size: 16px;
 }
 #mainmenu li a.dp1 {
@@ -114,10 +115,10 @@ a {
   text-align: center;
 }
 #mainmenu li:hover a.dp1 {
-  color: #0c82e9;
+  color: goldenrod;
 }
 #mainmenu:hover .sub {
-  height: 240px;
+  height: 300px;
 }
 #mainmenu:before {
   content: "";
@@ -134,16 +135,16 @@ a {
   transition: 0.5s;
 }
 #mainmenu:hover::before {
-  height: 240px;
+  height: 300px;
   border-bottom: 3px solid #333;
 }
 #mainmenu .sub a:hover {
-  color: #000;
+  color: goldenrod;
 }
 #mainmenu li.me:after {
   content: "";
   display: block;
-  width: 130px;
+  width: 160px;
   height: 3px;
   background: transparent;
   margin-left: -200px;
@@ -154,10 +155,10 @@ a {
   left: 0;
 }
 #mainmenu li.me:hover::after {
-  background: #0c82e9;
+  background: gold;
   margin-left: 0;
 }
-#frm1 {
+/* #frm1 {
   float: left;
   padding-top: 14px;
 }
@@ -249,7 +250,7 @@ a {
 }
 #ck1 {
   display: none;
-}
+} */
 
 #content {
   clear: both;
@@ -272,22 +273,22 @@ a {
   background-repeat: no-repeat;
 }
 .img_box li.item1 {
-  background-image: url("./img/img-main-visual1.jpg");
+  background-image: url("../img/img-main-visual1.jpg");
 }
 .img_box li.item2 {
-  background-image: url("./img/img-main-visual2.jpg");
+  background-image: url("../img/img-main-visual2.jpg");
 }
 .img_box li.item3 {
-  background-image: url("./img/img-main-visual3.jpg");
+  background-image: url("../img/img-main-visual3.jpg");
 }
 .img_box li.item4 {
-  background-image: url("./img/img-main-visual4.jpg");
+  background-image: url("../img/img-main-visual4.jpg");
 }
 .img_box li.item5 {
-  background-image: url("./img/img-main-visual5.jpg");
+  background-image: url("../img/img-main-visual5.jpg");
 }
 .img_box li.item6 {
-  background-image: url("./img/img-main-visual6.jpg");
+  background-image: url("../img/img-main-visual6.jpg");
 }
 
 .vs_box {
@@ -320,7 +321,7 @@ a {
   width: 37px;
   height: 32px;
   margin: 0 0 0 -15px;
-  background: url("./img/img_water_drop.png") no-repeat center 0;
+  background: url("../data/fireworks.png") no-repeat center 0;
   animation: vibrate-1 0.3s linear 3s infinite both;
 }
 .wave_loop {
@@ -332,7 +333,7 @@ a {
   background-repeat: no-repeat;
   background-position: 0 bottom;
   transform-origin: left bottom;
-  background-image: url("./img/img_wave2.png");
+  background-image: url("../img/img_wave2.png");
   animation: vibrate-1 0.6s linear 3s infinite both;
 }
 @keyframes vibrate-1 {
@@ -370,7 +371,7 @@ a {
   z-index: 16;
   width: 100%;
   height: 42px;
-  background: url("./img/bg-main-visual.png") repeat-x center 100%;
+  background: url("../img/bg-main-visual.png") repeat-x center 100%;
 }
 .icon_box {
   position: absolute;
@@ -399,7 +400,7 @@ a {
   transition: 0.4s;
 }
 .icon_box li a:hover {
-  background-color: #3d65b0;
+  background-color: goldenrod;
   color: #fff;
 }
 .icon_box li span {
@@ -409,19 +410,19 @@ a {
 }
 .icon_box li .thumb {
   background-repeat: no-repeat;
-  background-image: url("./img/ico_main.png");
+  background-image: url("../img/ico_main.png");
   width: 50px;
   height: 36px;
   margin: 10px auto;
 }
 .icon_box li.item1 .thumb {
-  background-position: 0px 0px;
+  background-image: url("../data/ico_main1.png");
 }
 .icon_box li.item2 .thumb {
-  background-position: -50px 0px;
+  background-image: url("../data/ico_main2.png");
 }
 .icon_box li.item3 .thumb {
-  background-position: -100px 0px;
+  background-image: url("../data/ico_main3.png");
 }
 .icon_box li.item4 .thumb {
   background-position: -150px 0px;
@@ -464,14 +465,14 @@ a {
   border-radius: 20px 20px 0px 0px;
 }
 .col_box .item1 .col_fr {
-  background: #26c0e4;
+  background: #e06b98;
 }
 .col_box .item2 .col_fr {
-  background: #0d84ea;
+  background: #d00051;
 }
 .col_box .item3 .col_fr {
-  background-color: #26c0e4;
-  background-image: url("./img/bg-main-notice-wave.png");
+  background-color: #e06b98;
+  background-image: url("../data/bg-main-notice-wave.png");
   background-repeat: no-repeat;
   background-position: 0 100%;
 }
@@ -513,7 +514,7 @@ a {
   top: 15px;
   background-color: transparent;
   border-radius: 40px;
-  background-image: url("./img/ico_main.png");
+  background-image: url("../img/ico_main.png");
 }
 .col_box .lst li a.lst_ico1:before {
   background-position: 0px -40px;
@@ -539,8 +540,8 @@ a {
 .nt {
   min-height: 90px;
   padding: 10px 20px 10px;
-  background: #d5f5ff;
-  border-bottom: 4px solid #26c0e4;
+  background: #ffe3ee;
+  border-bottom: 4px solid #e06b98;
 }
 .nt li {
   clear: both;
@@ -575,7 +576,7 @@ a {
   height: 12px;
   line-height: 12px;
   font-size: 20px;
-  color: #0d84ea;
+  color: goldenrod;
 }
 .nt li a span.nt_date {
   display: inline-block;
@@ -585,7 +586,7 @@ a {
   display: block;
   min-height: 190px;
   padding-top: 0px;
-  background: url("./img/bg_place.jpg") no-repeat 0 0;
+  background: url("../img/bg_place.jpg") no-repeat 0 0;
   color: #333;
   font-size: 16px;
   font-weight: bold;
@@ -673,10 +674,4 @@ a {
 }
 .copyright {
   clear: both;
-}
-.ft_logo {
-  float: right;
-  width: 121px;
-  height: 32px;
-  background-image: url("./img/img-seoul.png");
 }
