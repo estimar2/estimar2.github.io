@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+i {
+  color: #fff;
+}
+
+.n_item {
+  display: none;
+}
+
+.hd {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.hd label {
+  font-size: 25px;
+  line-height: 25px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+}
+
+.lst_call {
+  left: 0;
+}
+
+.top_call {
+  right: 0;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  padding-top: 5px;
+  background-color: #003519;
+}
+
+#gnb {
+  position: fixed;
+  left: -110%;
+  top: 50px;
+  z-index: 100;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(51, 51, 51, 0.884);
+  transition: 0.5s;
+}
+
+#top {
+  position: fixed;
+  right: -110%;
+  top: 50px;
+  z-index: 100;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(102, 102, 102, 0.884);
+  transition: 0.5s;
+}
+
+.menu li {
+  line-height: 60px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.menu li a {
+  display: block;
+  line-height: 60px;
+  text-indent: 2rem;
+  font-size: 16px;
+  color: #fff;
+}
+
+.hd i {
+  margin-top: 12px;
+}
+
+#ck1:checked ~ #gnb {
+  left: 0;
+}
+
+#ck1:not(:checked) ~ .hd .lst_call .xi-bars {
+  display: block;
+}
+
+#ck1:not(:checked) ~ .hd .lst_call .xi-close {
+  display: none;
+}
+
+#ck1:checked ~ .hd .lst_call .xi-bars {
+  display: none;
+}
+
+#ck1:checked ~ .hd .lst_call .xi-close {
+  display: block;
+}
+
+#ck2:checked ~ #top {
+  right: 0;
+}
+
+#ck2:not(:checked) ~ .hd .top_call .xi-user-o {
+  display: block;
+}
+
+#ck2:not(:checked) ~ .hd .top_call .xi-close {
+  display: none;
+}
+
+#ck2:checked ~ .hd .top_call .xi-user-o {
+  display: none;
+}
+
+#ck2:checked ~ .hd .top_call .xi-close {
+  display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 35px;
+  padding: 0px 8px;
+  font-size: 13px;
+  line-height: 35px;
+  background: #fff;
+  border: 1px solid #bebebe;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #bebebe;
+}
+
+.ft {
+  clear: both;
+  width: 100%;
+  height: 80px;
+  background-color: #003519;
+}
+
+.copyright {
+  color: #fff;
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+  font-size: 10px;
+  text-align: left;
+}
+
+.blank {
+  clear: both;
+  width: 100%;
+  height: 60px;
+}
