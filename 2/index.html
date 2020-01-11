@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>대구국제뮤지컬페스티벌</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="keywords"
+      content="대구국제뮤지컬페스티벌, 대구 페스티벌, 대구, 페스티벌, 뮤지컬 페스티벌, 국제페스티벌"
+    />
+    <meta name="description" content="" />
+    <meta property="og:title" content="2019년 한강몽땅 여름축제" />
+    <meta property="og:image" content="./img/fb-pic-2019.jpg" />
+    <meta
+      property="og:description"
+      content="한강여름축제 Hangang Summer Festival 2019 한강몽땅"
+    />
+    <link rel="stylesheet" href="font/font.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style></style>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script>
+      $(document).ready(function() {
+        var intv = setInterval(function() {
+          nextAni();
+        }, 2900);
+        function nextAni() {
+          $(".img_box")
+            .not(":animated")
+            .animate({ "margin-top": "-650px" }, 900, function() {
+              $(".img_box li")
+                .eq(0)
+                .appendTo($(".img_box"));
+              $(".img_box").css("margin-top", "0px");
+            });
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <header class="hd">
+      <div class="hd_wrap">
+        <!-- <a href="http://www.seoul.go.kr" class="slogo">지자체 로고 배경이미지로 설정</a> -->
+        <div class="info_box">차세대 뮤지컬 스타 모집</div>
+        <ul class="top">
+          <li>
+            <a href="https://www.seoul.go.kr/realmnews/in/list.do">서울소식</a>
+          </li>
+          <li><a href="http://eungdapso.seoul.go.kr">응답소</a></li>
+          <li><a href="http://opengov.seoul.go.kr">정보공개</a></li>
+        </ul>
+      </div>
+      <div class="hd_wrap">
+        <a href="index.html" class="logo"
+          ><!-- 행사용 로고 배경이미지 적용 --></a
+        >
+        <nav id="mainmenu">
+          <ul>
+            <li class="me">
+              <a href="#" class="dp1">ABOUT DIMF</a>
+              <ul class="sub">
+                <li><a href="#">About DIMF</a></li>
+                <li><a href="#">CI소개</a></li>
+                <li><a href="#">인사말</a></li>
+                <li><a href="#">조직도</a></li>
+                <li><a href="#">DIMF 역사관</a></li>
+                <li><a href="#">프로그램북</a></li>
+                <li><a href="#">오시는 길</a></li>
+              </ul>
+            </li>
+            <li class="me">
+              <a href="#" class="dp1">축제</a>
+              <ul class="sub">
+                <li><a href="#">축제일정</a></li>
+                <li><a href="#">대학생뮤지컬페스티벌</a></li>
+                <li><a href="#">특별공연</a></li>
+                <li><a href="#">개막식&축하공연</a></li>
+                <li><a href="#">DIMF어워즈</a></li>
+                <li><a href="#">DIMF즐기기</a></li>
+                <li><a href="#">딤프지기</a></li>
+              </ul>
+            </li>
+            <li class="me">
+              <a href="#" class="dp1">뮤지컬아카데미</a>
+              <ul class="sub">
+                <li><a href="#">2019년 아카데미</a></li>
+                <li><a href="#">아카데미 역사관</a></li>
+                <li><a href="#">아카데미 갤러리</a></li>
+              </ul>
+            </li>
+            <li class="me">
+              <a href="#" class="dp1">뮤지컬스타</a>
+              <ul class="sub">
+                <li><a href="#">뮤지컬스타 콘서트</a></li>
+                <li><a href="#">신청하기</a></li>
+              </ul>
+            </li>
+            <li class="me last">
+              <a href="#" class="dp1">커뮤니티</a>
+              <ul class="sub">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">1:1문의</a></li>
+                <li><a href="#">관람후기</a></li>
+                <li><a href="#">행사갤러리</a></li>
+                <li><a href="#">VIDEO&UCC</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <form action="" id="frm1">
+          <label class="search" for="ck1">검색</label>
+          <select name="" id="sel1">
+            <option value="">English</option>
+            <option value="">中文</option>
+            <option value="">にほんご</option>
+            <option value="">한국어</option>
+          </select>
+          <button id="go_btn">GO</button>
+          <input type="checkbox" id="ck1" />
+          <div id="search_form">
+            <label for="ck1" class="close_btn">닫기</label>
+            <input type="text" id="keyword" class="search_txt" />
+            <input type="submit" class="search_btn" value="GO" />
+          </div>
+        </form>
+      </div>
+    </header>
+    <main id="content">
+      <figure id="vs">
+        <ul class="img_box">
+          <li class="item1"></li>
+          <li class="item2"></li>
+          <li class="item3"></li>
+          <li class="item4"></li>
+          <li class="item5"></li>
+          <li class="item6"></li>
+        </ul>
+        <ul class="btn_box">
+          <li class="btn"><button></button></li>
+          <li class="btn"><button></button></li>
+          <li class="btn"><button></button></li>
+          <li class="btn"><button></button></li>
+          <li class="btn"><button></button></li>
+          <li class="btn"><button></button></li>
+        </ul>
+        <div class="vs_box">
+          <div class="tit_box">
+            <div class="wave_ani">
+              <div class="wave_drop"></div>
+              <div class="wave_loop"></div>
+            </div>
+            <h2 class="vs_tit">대구 국제<br />뮤지컬페스티벌</h2>
+            <p class="vs_com" title="대구에서 뮤지컬 페스티벌을 즐겨요!">
+              대구에서 뮤지컬 페스티벌을 즐겨요!
+            </p>
+          </div>
+          <ul class="icon_box">
+            <li class="ico_fr item1">
+              <a href="">
+                <span class="thumb"></span
+                ><span class="tmb_txt">프로그램북<br />다운로드</span></a
+              >
+            </li>
+            <li class="ico_fr item2">
+              <a href=""
+                ><span class="thumb"></span
+                ><span class="tmb_txt">축제<br />일정</span></a
+              >
+            </li>
+            <li class="ico_fr item3">
+              <a href=""
+                ><span class="thumb"></span
+                ><span class="tmb_txt">뮤지컬스타<br />신청</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </figure>
+      <div class="visual_over"></div>
+      <div class="col_all">
+        <ul class="col_box">
+          <li class="col item1">
+            <div class="col_fr">
+              <h3 class="col_tit">프로그램 소개</h3>
+              <p class="col_com">DIMF 테마별 프로그램</p>
+            </div>
+            <ul class="lst">
+              <!-- 아이콘 리스트 -->
+              <li>
+                <a href="" class="lst_ico1">
+                  <h4 class="cate_tit">시원한강</h4>
+                  <p class="cate_com">수상·물놀이·도전</p>
+                </a>
+              </li>
+              <li>
+                <a href="" class="lst_ico2">
+                  <h4 class="cate_tit">감동한강</h4>
+                  <p class="cate_com">공연·예술·열정</p>
+                </a>
+              </li>
+              <li>
+                <a href="" class="lst_ico3">
+                  <h4 class="cate_tit">함께한강</h4>
+                  <p class="cate_com">가족·휴식·환경</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="col item2">
+            <div class="col_fr">
+              <h3 class="col_tit">오늘의 공연</h3>
+              <p class="col_com">오늘 대구에서 즐기는 공연</p>
+            </div>
+            <ul class="lst">
+              <!-- 빈 리스트 -->
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </li>
+          <li class="col item3">
+            <div class="col_fr">
+              <h3 class="col_tit">공지사항</h3>
+              <p class="col_com">DIFM에 대해 알리는 말씀</p>
+            </div>
+            <ul class="nt">
+              <li>
+                <a href="">
+                  <span class="nt_tit">新年快乐</span>
+                  <span class="nt_date">2019.12.27</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="nt_tit">Happy New Year 2020!</span>
+                  <span class="nt_date">2019.12.27</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="nt_tit">2020년 새해인사</span>
+                  <span class="nt_date">2019.12.27</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="sns_thumb">
+              <!-- <img src="./img/bg_place.jpg" alt="왼쪽 배경이미지로">-->
+              <li>
+                <a
+                  href="https://www.youtube.com/user/dimfmusical/videos"
+                  class="sns1"
+                >
+                  <h4 class="cate_tit">YOUTUBE</h4>
+                </a>
+              </li>
+              <li>
+                <a href="https://pf.kakao.com/_xbujPC" class="sns2">
+                  <h4 class="cate_tit">KAKAO</h4>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/DIMFEST/" class="sns3">
+                  <h4 class="cate_tit">FACEBOOK</h4>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer id="ft">
+      <div class="ft_wrap">
+        <div class="ft_con">
+          <img src="data/foot_logo.png" alt="문의전화" />
+        </div>
+        <div class="ft_mid">
+          <nav id="fnb">
+            <ul>
+              <li><a href="">개인정보처리방침</a></li>
+              <li><a href="">영상정보처리기기 운영 관리방침</a></li>
+              <li><a href="">사이트맵</a></li>
+            </ul>
+          </nav>
+          <p class="copyright">
+            우편주소 : 41585)대구시 북구 호암로 51 대구삼성창조캠퍼스 F동 2층
+            DIMF 사무국 TEL:053-622-1945 FAX:503-622-1948 <br />
+            Copyright 2018 Daegu International Musical Festival. All Rights
+            Reserved.
+          </p>
+        </div>
+        <div class="ft_logo"><!-- 푸터로고 배경이미지 적용 --></div>
+      </div>
+    </footer>
+  </body>
+</html>
