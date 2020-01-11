@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="keywords" content="허갈닭강정" />
+  <meta name="description" content="허갈닭강정" />
+  <title>허갈닭강정-회사소개-찾아오시는 길</title>
+  <link rel="stylesheet" href="common.css" />
+  <link rel="stylesheet" href="sub1-3.css">
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+  <script>
+    function initialize() {
+
+      var myLatlng = new google.maps.LatLng(37.196936, 126.998382);
+      var mapOptions = {
+        zoom: 15,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+      var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+      var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: '경기도 화성시 화산동 안녕남로 149'
+      });
+    }
+  </script>
+</head>
+
+<body onload="initialize()">
+  <div id="wrap">
+    <header class="hd">
+      <nav class="gnb">
+        <ul class="menu left_menu">
+          <li>
+            <a href="sub1.html" class="menu_tit sub1">회사소개</a>
+            <ul class="sub">
+              <li class="col1"><a href="sub1.html">인사말</a></li>
+              <li class="col2"><a href="sub1-2.html">소개 동영상</a></li>
+              <li class="col3"><a href="sub1-3.html">찾아오시는 길</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="sub2.html" class="menu_tit sub2">메뉴소개</a>
+            <ul class="sub">
+              <li class="col1"><a href="sub2.html">닭강정</a></li>
+              <li class="col2"><a href="sub2-2.html">치킨</a></li>
+              <li class="col3"><a href="sub2-3.html">플래터&#38;사이드</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="menu_logo">
+          <a href="index.html" class="hd_logo">
+            <img src="./data/hd_logo.png" alt="hd로고" />
+          </a>
+        </div>
+        <ul class="menu right_menu">
+          <li>
+            <a href="sub3.html" class="menu_tit sub3">매장찾기</a>
+            <ul class="sub">
+              <li class="col1"><a href="sub3.html">매장찾기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="sub4.html" class="menu_tit sub4">고객센터</a>
+            <ul class="sub">
+              <li class="col1"><a href="sub4.html">공지사항</a></li>
+              <li class="col2"><a href="sub4-2.html">FAQ</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="sub_content">
+      <aside class="col side">
+        <ul>
+          <li class="aside_tit"><a href="sub1.html">인사말</a></li>
+          <li class="aside_tit2"><a href="sub1-2.html">소개동영상</a></li>
+          <li class="aside_tit3"><a href="sub1-3.html">찾아오시는 길</a></li>
+        </ul>
+      </aside>
+      <section class="col con">
+        <div class="col_content">
+          <h2 class="main_tit">찾아오시는 길</h2>
+          <div id="map_canvas" class="map" style="width:800px; height:500px;"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="ft">
+      <div class="ft_logo_wrap">
+        <a href="index.html" class="ft_logo">
+          <img src="./data/ft_logo2.png" alt="ft로고" />
+        </a>
+      </div>
+      <div class="ft_menu_wrap">
+        <ul class="ft_menu">
+          <li><a href="#">개인정보보호정책</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">이메일 무단수집거부</a></li>
+          <li><a href="#">고객문의</a></li>
+        </ul>
+        <br>
+        <ul class="ft_local">
+          <li><a href="#">(주)유성애프앤비</a></li>
+          <li><a href="#">주소 : 경기도 화성시 안녕남로 149(경기도 화성시 안녕동 146-80)</a></li>
+          <li><a href="#">사업자등록번호 : 576-87-00847</a></li>
+          <li><a href="#">대표 : 박효순</a></li>
+        </ul>
+        <br>
+        <ul class="ft_number">
+          <li><a href="#">전화번호 : 1899-0135</a></li>
+          <li><a href="#">팩스번호 : 031-221-3113</a></li>
+          <li><a href="#">Email : ysfb1174@naver.com</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>COPYRIGHT(C) (주)유성F&B. ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
