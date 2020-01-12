@@ -21,6 +21,7 @@
   height: 110px;
 }
 .ft {
+  height: 80px;
   bottom: 0;
   left: 0;
   color: #fff;
@@ -32,7 +33,10 @@
   height: 60px;
   margin: 0 auto;
   position: relative;
-  background: rgba(0, 0, 0, 0.9);
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .home,
 .login {
@@ -40,7 +44,7 @@
   position: absolute;
   top: 12px;
   z-index: 999;
-  width: 90px;
+  width: 50px;
   line-height: 32px;
   color: #fff;
   text-align: center;
@@ -85,7 +89,7 @@
   height: auto;
   min-height: 420%;
   overflow: hidden;
-  padding-bottom: 290px;
+  padding-bottom: 100px;
 }
 .conRotate {
   width: 100%;
@@ -123,6 +127,13 @@
   opacity: 1;
 }
 .title {
+  width: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 auto;
+  background-color: #a6cd48;
   text-align: center;
 }
 .gal1 {
@@ -131,8 +142,6 @@
 }
 .gal1 li {
   clear: both;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -140,6 +149,9 @@
   display: block;
   width: 100%;
   height: auto;
+}
+.gal1 li a {
+  text-align: center;
 }
 .proTit {
   line-height: 2.8;
@@ -151,6 +163,66 @@
   max-height: 40px;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: tomato;
+  font-weight: bold;
+}
+.proTit2 {
+  width: 125px;
+  line-height: 2.8;
+  text-align: right;
+  margin: 0 auto;
+}
+.proCom2 {
+  width: 125px;
+  font-size: 0.95em;
+  padding: 0.25em;
+  overflow: hidden;
+  max-height: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: right;
+  color: tomato;
+  font-weight: bold;
+  margin: 0 auto;
+}
+del {
+  color: #777;
+  font-size: 12px;
+}
+.int {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coupon,
+.gift,
+.today,
+.sale {
+  margin: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+.coupon {
+  width: 50px;
+  background-color: #a6cd48;
+}
+.gift {
+  width: 50px;
+  background-color: powderblue;
+}
+.today {
+  width: 80px;
+  background-color: pink;
+}
+.sale {
+  width: 50px;
+  background-color: tomato;
 }
 .grid1 {
   width: 310px;
@@ -163,7 +235,6 @@
   padding-top: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
 }
 .grid1 li:nth-child(2n + 1) {
   margin-right: 10px;
@@ -174,7 +245,6 @@
   height: auto;
   margin: 0 auto;
 }
-
 .list1 {
   width: 100%;
   margin-top: 40px;
@@ -273,6 +343,7 @@
 }
 .copyright {
   clear: both;
+  font-size: 10px;
   text-align: center;
 }
 
