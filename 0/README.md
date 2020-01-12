@@ -1,3 +1,3 @@
-## 허갈닭강정
+# 허갈닭강정
 
-- http://www.semat.co.kr/
+<http://www.semat.co.kr/>
