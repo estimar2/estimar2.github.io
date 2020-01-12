@@ -1,3 +1,3 @@
-## Kim & Chang
+# Kim & Chang
 
-- https://www.kimchang.com/ko/main.kc
+<https://www.kimchang.com/ko/main.kc>
