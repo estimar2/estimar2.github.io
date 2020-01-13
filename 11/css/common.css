@@ -274,32 +274,7 @@ del {
   height: auto;
   margin: 0 auto;
 }
-.list1 {
-  width: 100%;
-  margin-top: 40px;
-}
-.list1 li {
-  clear: both;
-  padding: 1em;
-  background: #333;
-  border-top: 1px solid #555;
-  border-bottom: 1px solid #000;
-}
-.list1 li a {
-  color: #fff;
-  display: block;
-  position: relative;
-}
-.list1 .proTit {
-  position: absolute;
-  left: 150px;
-  top: 12px;
-}
-.list1 .proCom {
-  position: absolute;
-  left: 150px;
-  top: 52px;
-}
+
 .iconlist1 {
   width: 310px;
   margin: 0 auto;
@@ -339,7 +314,32 @@ del {
   font-weight: bold;
   margin: 0 auto;
 }
-
+.list1 {
+  width: 100%;
+  margin-top: 40px;
+}
+.list1 li {
+  clear: both;
+  padding: 1em;
+  background: #333;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #000;
+}
+.list1 li a {
+  color: #fff;
+  display: block;
+  position: relative;
+}
+.list1 .proTit {
+  position: absolute;
+  left: 150px;
+  top: 12px;
+}
+.list1 .proCom {
+  position: absolute;
+  left: 150px;
+  top: 52px;
+}
 #sns {
   clear: both;
   width: 250px;
