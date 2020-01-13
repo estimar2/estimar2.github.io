@@ -95,7 +95,6 @@
 .conRotate {
   width: 100%;
   height: 100%;
-  padding-bottom: 50px;
 }
 .page {
   width: 100%;
@@ -108,7 +107,6 @@
   z-index: 80;
   background: #fff;
   padding-top: 150px;
-  padding-bottom: 80px;
   opacity: 0;
 }
 .page1 {
@@ -314,31 +312,43 @@ del {
   font-weight: bold;
   margin: 0 auto;
 }
+.life {
+  margin-top: 50px;
+}
 .list1 {
-  width: 100%;
-  margin-top: 40px;
+  width: 310px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .list1 li {
   clear: both;
-  padding: 1em;
-  background: #333;
-  border-top: 1px solid #555;
-  border-bottom: 1px solid #000;
 }
 .list1 li a {
-  color: #fff;
+  color: #000;
   display: block;
   position: relative;
 }
+.list1 .plus_con {
+  font-size: 10px;
+}
+.list1 .pluse {
+  margin-top: 15px;
+  text-align: center;
+}
 .list1 .proTit {
   position: absolute;
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   left: 150px;
-  top: 12px;
+  top: 0;
 }
 .list1 .proCom {
   position: absolute;
   left: 150px;
-  top: 52px;
+  top: 30px;
 }
 #sns {
   clear: both;
