@@ -169,8 +169,11 @@
 }
 .proTit2 {
   width: 125px;
+  overflow: hidden;
   padding-top: 10px;
   text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   margin: 0 auto;
 }
 .proCom2 {
@@ -179,8 +182,6 @@
   padding: 0.25em;
   overflow: hidden;
   max-height: 40px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   text-align: right;
   color: tomato;
   font-weight: bold;
@@ -188,9 +189,15 @@
 }
 del {
   color: #777;
-  font-size: 12px;
+  font-size: 10px;
 }
 .int {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.int2 {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -209,21 +216,43 @@ del {
   font-weight: bold;
   color: #fff;
 }
-.coupon {
+.coupon2,
+.gift2,
+.sale2,
+.today2,
+.onep {
+  margin: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
+}
+.coupon,
+.coupon2 {
   width: 50px;
   background-color: #a6cd48;
 }
-.gift {
+.gift,
+.gift2 {
   width: 50px;
   background-color: powderblue;
 }
-.today {
+.today,
+.today2 {
   width: 80px;
   background-color: pink;
 }
-.sale {
+.sale,
+.sale2 {
   width: 50px;
   background-color: tomato;
+}
+.onep {
+  width: 50px;
+  background-color: orange;
 }
 .grid1 {
   width: 310px;
@@ -271,39 +300,44 @@ del {
   left: 150px;
   top: 52px;
 }
-
 .iconlist1 {
-  width: 320px;
-  margin: 20px auto;
-  margin-top: 40px;
+  width: 310px;
+  margin: 0 auto;
 }
 .iconlist1 li {
   float: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 100px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.iconlist1 li:nth-child(3n + 1),
-.iconlist1 li:nth-child(3n + 2) {
+.iconlist1 li:nth-child(2n + 1) {
   margin-right: 10px;
 }
-.iconlist1 li a {
+.iconlist1 li img {
   display: block;
-  position: relative;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.iconlist1 li a img {
-  display: block;
-  width: 80px;
-  height: 80px;
+  width: 125px;
+  height: auto;
+  margin: 0 auto;
 }
 .iconlist1 .proTit {
-  font-size: 1em;
+  width: 125px;
   overflow: hidden;
-  max-height: 40px;
+  padding-top: 10px;
+  text-align: right;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin: 0 auto;
+}
+.iconlist1 .proCom {
+  width: 125px;
+  font-size: 0.95em;
+  padding: 0.25em;
+  overflow: hidden;
+  max-height: 40px;
+  text-align: right;
+  color: tomato;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 #sns {
