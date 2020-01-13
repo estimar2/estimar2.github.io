@@ -13,7 +13,6 @@
   height: 115px;
   clear: both;
   z-index: 999;
-  background: rgba(22, 22, 22, 0.75);
 }
 .hd {
   top: 0;
@@ -27,6 +26,7 @@
   color: #fff;
   text-align: center;
   line-height: 2.4;
+  background: rgba(22, 22, 22, 0.75);
 }
 .nav-container {
   width: 100%;
@@ -63,25 +63,26 @@
   width: 100%;
   height: 50px;
   position: absolute;
-  top: 65px;
   left: 0;
 }
 #gnb li {
   float: left;
   width: 25%;
   height: 50px;
-  color: #fff;
   text-align: center;
+  background-color: #fff;
 }
 #gnb li button {
   display: block;
-  color: #fff;
+  color: #fb6e73;
   text-align: center;
+  font-weight: bold;
   font-size: 0.9em;
   line-height: 42px;
   width: 100%;
-  border-left: 1px solid #666;
-  border-right: 1px solid #111;
+  /* background-color: #fb6e73; */
+  border: 1px solid #fb6e73;
+  border-radius: 20px;
 }
 .content {
   position: relative;
@@ -168,7 +169,7 @@
 }
 .proTit2 {
   width: 125px;
-  line-height: 2.8;
+  padding-top: 10px;
   text-align: right;
   margin: 0 auto;
 }
@@ -227,7 +228,6 @@ del {
 .grid1 {
   width: 310px;
   margin: 0 auto;
-  padding-top: 25px;
 }
 .grid1 li {
   float: left;
