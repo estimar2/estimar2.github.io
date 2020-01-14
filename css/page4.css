@@ -1,0 +1,18 @@
+@charset "utf-8";
+.fo_left {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fo_tit {
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+  height: 60%;
+  background-color: crimson;
+  font-size: 8rem;
+  font-weight: bold;
+  text-shadow: -1px -1px #fff, 2px 2px #484848;
+}

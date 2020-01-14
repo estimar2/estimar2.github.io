@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#page1 {
+  background-color: #d0ffff;
+  text-align: center;
+}
+.main_tit {
+  position: relative;
+  top: 25%;
+  font-size: 9rem;
+  font-weight: bold;
+}

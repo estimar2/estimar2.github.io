@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.fiv_right {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fiv_tit {
+  position: relative;
+  font-size: 8rem;
+  font-weight: bold;
+  text-shadow: -1px -1px #fff, 2px 2px #484848;
+}
