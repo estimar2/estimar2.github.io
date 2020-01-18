@@ -8,6 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Song' Portfolio</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
@@ -26,6 +27,35 @@
     <link rel="stylesheet" href="css/page3.css" />
     <link rel="stylesheet" href="css/page4.css" />
     <link rel="stylesheet" href="css/page5.css" />
+    <script>
+      //한 페이지씩 스크롤
+      $(document).ready(function() {
+        //한 페이지당 높이가 크기가 일정 할 때
+        var sc_pg = parseInt($(window).height());
+        $(window).on("mousewheel", function(e) {
+          if (e.originalEvent.wheelDelta < 0) {
+            $("html, body")
+              .not(":animated")
+              .animate(
+                {
+                  scrollTop: "+=" + sc_pg + "px"
+                },
+                800
+              );
+          } else {
+            $("html, body")
+              .not(":animated")
+              .animate(
+                {
+                  scrollTop: "-=" + sc_pg + "px"
+                },
+                800
+              );
+          }
+          return false;
+        });
+      });
+    </script>
   </head>
   <body>
     <div id="wrap">
@@ -47,10 +77,12 @@
             <li><a href="#page5">Contect</a></li>
           </ul>
         </nav>
+        <p class="copyright">ALL Copyright <br />by song reserved.</p>
       </header>
-      <footer id="ft">
+
+      <!-- <footer id="ft">
         <p class="copyright">ALL Copyright by song reserved.</p>
-      </footer>
+      </footer> -->
 
       <main id="con">
         <section class="page" id="page1">
