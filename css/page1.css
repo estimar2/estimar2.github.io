@@ -6,11 +6,11 @@
 }
 .box {
   display: block;
-  position: absolute;
-  padding: 100px 200px;
+  position: relative;
+  margin: 0 auto;
+  width: 98%;
+  height: 98%;
   border-radius: 20px;
-  top: 25%;
-  left: 15%;
   font-size: 9rem;
   font-weight: bold;
   text-align: center;
@@ -19,6 +19,10 @@
   transform: translate(-50%), -50%;
 }
 .main_tit {
+  position: relative;
+  width: 98%;
+  height: 98%;
+  top: 25%;
   animation: txtAni 5s infinite 0s;
   color: #d0ffff;
   text-shadow: 0 8px 9px #8ecfcf, 0px -2px 1px #fff;
