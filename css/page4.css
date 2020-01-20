@@ -9,9 +9,14 @@
 .fo_tit {
   margin: 0 auto;
   position: relative;
-  width: 60%;
+  width: 50%;
   height: 60%;
   font-size: 8rem;
   font-weight: bold;
   text-shadow: -1px -1px #fff, 2px 2px #484848;
+}
+
+.fo_right {
+  width: 50%;
+  height: 100%;
 }

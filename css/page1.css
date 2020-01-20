@@ -21,7 +21,7 @@
 .main_tit {
   position: relative;
   width: 98%;
-  height: 98%;
+  height: 50%;
   top: 25%;
   animation: txtAni 5s infinite 0s;
   color: #d0ffff;
