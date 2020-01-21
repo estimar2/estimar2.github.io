@@ -1,27 +1,49 @@
-//한 페이지씩 스크롤
-$(document).ready(function() {
-  //한 페이지당 높이가 크기가 일정 할 때
-  var sc_pg = parseInt($(window).height());
-  $(window).on("mousewheel", function(e) {
-    if (e.originalEvent.wheelDelta < 0) {
-      $("html, body")
-        .not(":animated")
+window.onload = function() {
+  var elm = ".page";
+  $(elm).each(function(index) {
+    // 개별적으로 Wheel 이벤트 적용
+    $(this).on("mousewheel DOMMouseScroll", function(e) {
+      e.preventDefault();
+      var delta = 0;
+      if (!event) event = window.event;
+      if (event.wheelDelta) {
+        delta = event.wheelDelta / 120;
+        if (window.opera) delta = -delta;
+      } else if (event.detail) delta = -event.detail / 3;
+      var moveTop = $(window).scrollTop();
+      var elmSelecter = $(elm).eq(index);
+      // 마우스휠을 위에서 아래로
+      if (delta < 0) {
+        if ($(elmSelecter).next() != undefined) {
+          try {
+            moveTop = $(elmSelecter)
+              .next()
+              .offset().top;
+          } catch (e) {}
+        }
+        // 마우스휠을 아래에서 위로
+      } else {
+        if ($(elmSelecter).prev() != undefined) {
+          try {
+            moveTop = $(elmSelecter)
+              .prev()
+              .offset().top;
+          } catch (e) {}
+        }
+      }
+
+      // 화면 이동(1000)
+      $("html,body")
+        .stop()
         .animate(
           {
-            scrollTop: "+=" + sc_pg + "px"
+            scrollTop: moveTop + "px"
           },
-          800
-        );
-    } else {
-      $("html, body")
-        .not(":animated")
-        .animate(
           {
-            scrollTop: "-=" + sc_pg + "px"
-          },
-          800
+            duration: 1000,
+            complete: function() {}
+          }
         );
-    }
-    return false;
+    });
   });
-});
+};
