@@ -1,1 +1,15 @@
 @charset "utf-8";
+.six_left {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.six_tit {
+  position: relative;
+  width: 80%;
+  height: 20%;
+  font-size: 8rem;
+  text-shadow: -3px -1px #fff, 0 8px 9px #8ecfcf;
+}

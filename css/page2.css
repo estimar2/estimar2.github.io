@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.ecdebb {
+.two_left {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -13,15 +13,22 @@
   width: 50%;
   height: 40%;
   font-size: 8rem;
-  font-weight: bolder;
-  text-shadow: 2px 2px #fff, 0 8px 9px #8ecfcf;
+  text-shadow: -3px -1px #fff, 0 8px 9px #8ecfcf;
 }
 
-aside .two {
+.two {
   position: relative;
   width: 50%;
-  height: auto;
-  margin-left: 10px;
+  height: 15%;
+  margin-left: 5%;
+  top: 30%;
+}
+.two_tit1,
+.two_tit2,
+.two_tit3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 .tools img {
   width: 50px;
