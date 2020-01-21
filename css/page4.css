@@ -11,9 +11,9 @@
 .fo_tit {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   font-size: 8rem;
-  top: 10%;
+  font-weight: normal;
   text-shadow: -3px -1px #fff, 0 8px 9px #8ecfcf;
 }
 .list {

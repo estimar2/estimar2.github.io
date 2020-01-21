@@ -9,8 +9,26 @@
 
 .fiv_tit {
   position: relative;
-  width: 60%;
-  height: 40%;
+  width: 100%;
+  height: auto;
   font-size: 8rem;
+  font-weight: normal;
   text-shadow: -3px -1px #fff, 0 8px 9px #8ecfcf;
+}
+
+.fiv_left {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fiv_tit1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+.fiv_con {
+  font-size: 20px;
+  line-height: 2.5rem;
 }
