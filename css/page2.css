@@ -8,9 +8,8 @@
 }
 
 .two_tit {
-  margin: 0 auto;
   position: relative;
-  width: 50%;
+  width: 60%;
   height: 40%;
   font-size: 8rem;
   text-shadow: -3px -1px #fff, 0 8px 9px #8ecfcf;
@@ -19,9 +18,9 @@
 .two {
   position: relative;
   width: 50%;
-  height: 15%;
+  height: 20%;
   margin-left: 5%;
-  top: 30%;
+  top: 28%;
 }
 .two_tit1,
 .two_tit2,
