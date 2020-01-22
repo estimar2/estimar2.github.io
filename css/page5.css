@@ -32,3 +32,6 @@
   font-size: 20px;
   line-height: 2.5rem;
 }
+.fiv_con a:hover {
+  color: #54bdbd;
+}

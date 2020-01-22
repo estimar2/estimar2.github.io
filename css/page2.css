@@ -37,3 +37,6 @@
   width: 50px;
   height: 50px;
 }
+.exp a:hover {
+  color: #54bdbd;
+}

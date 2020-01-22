@@ -27,9 +27,6 @@ i {
 #wrap {
   width: 100%;
 }
-.cd-vertical-nav a {
-  font-size: 15px;
-}
 
 #con {
   clear: both;
@@ -82,106 +79,6 @@ i {
 .page .right {
   float: right;
 }
-
-#hd {
-  width: 220px;
-  height: 100vh;
-  overflow: hidden;
-  position: fixed;
-  right: -220px;
-  top: 0;
-  z-index: 900;
-  transition: 0.5s;
-  background-color: rgb(238, 238, 238);
-}
-
-/* .logo {
-    display: block;
-    padding: 10px;
-  } */
-
-.logo {
-  display: block;
-  box-sizing: border-box;
-  padding: 10px;
-  text-align: center;
-}
-
-.inset {
-  width: 100%;
-  font-size: 50px;
-  font-weight: bold;
-  border-radius: 30px;
-  background: rgba(122, 122, 122, 0.623);
-  text-shadow: -1px -1px #eee, 2px 2px #484848;
-}
-
-#gnb li {
-  clear: both;
-  line-height: 64px;
-}
-
-#gnb li a {
-  display: block;
-  font-size: 20px;
-  text-align: center;
-}
-
-#ck1:checked ~ #hd {
-  right: 0;
-}
-
-#ck1:checked ~ .lst_btn {
-  right: 230px;
-}
-
-.lst_btn {
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  z-index: 910;
-  text-align: center;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-/* #ck1:checked ~ .lst_btn {} */
-
-/* #ft {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 900;
-  width: 50px;
-  height: 100vh;
-  background: rgba(122, 122, 122, 0.623);
-}
-
-.copyright {
-  writing-mode: vertical-lr;
-  text-align: center;
-  vertical-align: center;
-  padding: 15px;
-  font-size: 16px;
-  color: #fff;
-  font-weight: 100;
-  transform: rotate(180deg);
-} */
-
-.copyright {
-  display: bloack;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  height: 50px;
-  bottom: 25px;
-  font-size: 10px;
-  color: #999;
-}
-
 .title {
   font-family: "Black Han Sans", sans-serif;
   color: #282828;
