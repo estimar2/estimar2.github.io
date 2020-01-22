@@ -5,9 +5,6 @@
   justify-content: center;
   align-items: center;
 }
-.fo_right {
-  overflow: hidden;
-}
 .fo_tit {
   position: relative;
   width: 100%;
@@ -16,26 +13,110 @@
   font-weight: normal;
   text-shadow: -3px -1px #fff, 0 8px 9px #8ecfcf;
 }
+.for_tit {
+  clear: both;
+  font-weight: bolder;
+  font-size: 2rem;
+}
 .list {
   position: relative;
   width: 100%;
-  margin-left: 5%;
-  margin-top: 5%;
+  height: 100%;
+  left: 5%;
+  top: 5%;
 }
-.list li {
-  margin: 10px 25px;
-}
-.for_tit {
+.lst {
+  position: relative;
   clear: both;
-  font-weight: bold;
-  font-size: 2rem;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
-.for_con {
-  margin-bottom: 5px;
+.lst li {
   float: left;
-  text-align: right;
-}
-.for_con img {
   width: 300px;
   height: 200px;
+  margin: 10px 25px;
+  margin-bottom: 25px;
+}
+.lst li .hoverBox {
+  width: 300px;
+  height: 200px;
+  color: #d0ffff;
+  transition: 0.5s;
+  position: relative;
+}
+.lst li .img_box {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.com {
+  position: relative;
+  top: 40px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 14px;
+}
+.lnk_box {
+  position: relative;
+  top: 40px;
+  text-align: center;
+  line-height: 1.3;
+}
+.more {
+  padding: 8px 28px;
+  border: 1px solid #d0ffff;
+  color: #d0ffff;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: lighter;
+}
+.img_box img {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+.lst.sq li {
+  position: relative;
+  overflow: visible;
+}
+.lst.sq li::before {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 10px solid rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  opacity: 0;
+  transition: 0.5s;
+  transform: scale(0);
+}
+.lst.sq li:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+.lst.sq .img_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  overflow: hidden;
+}
+.lst.sq .hoverBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  overflow: hidden;
+  opacity: 0;
+  background: rgba(40, 40, 40, 0.8);
+}
+.lst.sq .bx:hover .hoverBox {
+  opacity: 1;
 }
