@@ -12,6 +12,7 @@ window.onload = function() {
       } else if (event.detail) delta = -event.detail / 3;
       var moveTop = $(window).scrollTop();
       var elmSelecter = $(elm).eq(index);
+
       // 마우스휠을 위에서 아래로
       if (delta < 0) {
         if ($(elmSelecter).next() != undefined) {
@@ -21,6 +22,7 @@ window.onload = function() {
               .offset().top;
           } catch (e) {}
         }
+
         // 마우스휠을 아래에서 위로
       } else {
         if ($(elmSelecter).prev() != undefined) {
