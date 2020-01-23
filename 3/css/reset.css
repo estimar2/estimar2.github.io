@@ -1,1 +1,32 @@
 @charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+}
+input {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
+table {
+  display: table;
+}
+th,
+td {
+  display: table-cell;
+}
+tr {
+  display: table-row;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
