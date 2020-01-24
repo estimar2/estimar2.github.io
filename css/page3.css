@@ -1,4 +1,5 @@
 @charset "utf-8";
+/* MY SKILLS */
 
 .thr_right {
   text-align: center;
@@ -15,17 +16,18 @@
   text-shadow: -3px -1px #fff, 0 8px 9px #8ecfcf;
 }
 .thr_left {
-  text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+}
+.progress_items {
+  width: 100%;
+  height: auto;
+  margin-left: 5%;
 }
 .thr_left img {
   width: 80px;
   height: 80px;
-}
-.item {
-  float: left;
 }
 .item:nth-child(4) {
   clear: both;
