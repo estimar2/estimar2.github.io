@@ -88,10 +88,11 @@ button {
   width: 100%;
   margin: 0 auto;
   margin-top: 20px;
+  background-color: #4472c5;
 }
 .menu {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .menu li {
@@ -104,13 +105,16 @@ button {
   color: #333;
   font-size: 16px;
 }
+#gnb .menu {
+  width: 80%;
+  margin: 0 auto;
+}
 #gnb li {
   width: 25%;
   margin: 1rem 0px;
 }
 #gnb li a {
   color: #fff;
-  background-color: #4472c5;
   line-height: 3;
 }
 #collap_menu {
@@ -275,12 +279,17 @@ button {
 #ft {
   clear: both;
   padding: 2rem;
+  padding-left: 5rem;
   min-height: 80px;
   background: #333;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+.ft_box {
+  width: 80%;
+  margin: 0 auto;
 }
 .ft_menu {
   width: 100%;
@@ -302,8 +311,13 @@ button {
 }
 .ft_wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-content: flex-start;
+}
+.ft_wrap img {
+  width: 120px;
+  height: 40px;
+  margin-right: 100px;
 }
 @media screen and (max-width: 767px) {
   .mo {
@@ -363,12 +377,16 @@ button {
     margin: 0 auto;
   }
   .item_tit {
-    font-size: 36px;
-    color: #0c0;
+    margin-top: 10px;
+    width: 250px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .item_com {
-    font-size: 20px;
-    color: #0c0;
+    margin-top: 10px;
+    font-size: 15px;
   }
 }
 /* 미디어 타입의 종류
