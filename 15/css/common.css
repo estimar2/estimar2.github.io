@@ -331,15 +331,46 @@ button {
     margin: 0 auto;
   }
   .item_tit {
+    width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 18px;
-    color: #000;
   }
   .item_com {
     font-size: 14px;
-    color: #000;
   }
   .vs {
     display: none;
+  }
+  #ft {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ft_menu {
+    clear: both;
+    width: 280px;
+    float: left;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .ft_menu li:nth-child(3)::after {
+    content: "";
+  }
+  .ft_wrap {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+  }
+  .ft_wrap img {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .copyright {
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 959px) {
@@ -349,11 +380,25 @@ button {
   .mo {
     display: none;
   }
+  #tnb {
+    position: relative;
+    width: 400px;
+    height: auto;
+  }
   #menu_call ~ .wrap {
     width: 640px;
     margin: 0 auto;
   }
-  .item_tit {
+  .item_lst {
+    width: 800px;
+    clear: both;
+    float: left;
+  }
+  .item_lst .item_tit {
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 24px;
   }
   .item_com {
@@ -361,6 +406,29 @@ button {
   }
   .vs {
     display: none;
+  }
+  #ft {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ft_menu {
+    clear: both;
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+  .ft_wrap {
+    clear: both;
+    display: flex;
+  }
+  .ft_wrap img {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .copyright {
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 960px) {
