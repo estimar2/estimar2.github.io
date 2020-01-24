@@ -43,13 +43,46 @@
   width: 500px;
   text-align: center;
 }
-.progress2 {
+
+.progress1 {
   padding: 6px;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
     0 1px rgba(255, 255, 255, 0.08);
 }
+
+/* progress item1 */
+
+.progress-bar1 {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-bar1 {
+  width: 80%;
+  background-color: #f2672c;
+  animation: progressAnimation_1 6s;
+}
+
+@keyframes progressAnimation_1 {
+  0% {
+    width: 5%;
+    background-color: #f2672c;
+  }
+  100% {
+    width: 80%;
+    background-color: #f2672c;
+  }
+}
+
+/* progress item2 */
 .progress-bar2 {
   height: 18px;
   border-radius: 30px;
@@ -62,18 +95,134 @@
   transition-property: width, background-color;
 }
 .progress-moved .progress-bar2 {
-  width: 85%;
-  background-color: blue;
-  animation: progressAnimation 6s;
+  width: 75%;
+  background-color: #30aadd;
+  animation: progressAnimation_2 6s;
 }
 
-@keyframes progressAnimation {
+@keyframes progressAnimation_2 {
   0% {
     width: 5%;
-    background-color: #d0ffff;
+    background-color: #30aadd;
   }
   100% {
-    width: 85%;
-    background-color: blue;
+    width: 75%;
+    background-color: #30aadd;
+  }
+}
+
+/* progress item3 */
+.progress-bar3 {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-bar3 {
+  width: 45%;
+  background-color: #f1c026;
+  animation: progressAnimation_3 6s;
+}
+
+@keyframes progressAnimation_3 {
+  0% {
+    width: 5%;
+    background-color: #f1c026;
+  }
+  100% {
+    width: 45%;
+    background-color: #f1c026;
+  }
+}
+
+/* progress item4 */
+.progress-bar4 {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-bar4 {
+  width: 40%;
+  background-color: #182c61;
+  animation: progressAnimation_4 6s;
+}
+
+@keyframes progressAnimation_4 {
+  0% {
+    width: 5%;
+    background-color: #182c61;
+  }
+  100% {
+    width: 40%;
+    background-color: #182c61;
+  }
+}
+
+/* progress item5 */
+.progress-bar5 {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-bar5 {
+  width: 35%;
+  background-color: #8f9ed1;
+  animation: progressAnimation_5 6s;
+}
+
+@keyframes progressAnimation_5 {
+  0% {
+    width: 5%;
+    background-color: #8f9ed1;
+  }
+  100% {
+    width: 35%;
+    background-color: #8f9ed1;
+  }
+}
+
+/* progress item6 */
+.progress-bar6 {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-bar6 {
+  width: 30%;
+  background-color: #61dafb;
+  animation: progressAnimation_6 6s;
+}
+
+@keyframes progressAnimation_6 {
+  0% {
+    width: 5%;
+    background-color: #61dafb;
+  }
+  100% {
+    width: 30%;
+    background-color: #61dafb;
   }
 }
