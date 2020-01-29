@@ -21,14 +21,13 @@
 .two {
   position: relative;
   width: 100%;
-  height: 20%;
   margin-left: 5%;
-  top: 23%;
+  top: 22%;
 }
 .two_tit1,
 .two_tit2,
 .two_tit3 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -36,6 +35,23 @@
   width: 50px;
   height: 50px;
 }
-.exp a:hover {
+/* .exp a:hover {
   color: #54bdbd;
+} */
+.exp button {
+  padding: 10px 20px;
+  display: block;
+  background-color: #d0ffff;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.exp button:hover {
+  background-color: #bffdfd;
+}
+.exp {
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+}
+.exp2 {
+  margin-bottom: 30px;
 }
