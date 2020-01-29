@@ -54,8 +54,12 @@
   height: auto;
 }
 .box2 .year {
-  width: 80px;
+  text-align: left;
 }
 .box2 .some {
   font-size: 13px;
+  width: 250px;
+}
+.box2 .copyright {
+  text-align: right;
 }
