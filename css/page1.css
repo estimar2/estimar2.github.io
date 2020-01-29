@@ -50,4 +50,12 @@
 }
 .box2 p {
   color: #54bdbd;
+  width: 250px;
+  height: auto;
+}
+.box2 .year {
+  width: 80px;
+}
+.box2 .some {
+  font-size: 13px;
 }
