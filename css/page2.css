@@ -43,7 +43,8 @@
   display: block;
   background-color: #d0ffff;
   border-radius: 10px;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  border: 0;
 }
 .exp button:hover {
   background-color: #bffdfd;

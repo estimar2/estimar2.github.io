@@ -42,9 +42,10 @@
   display: block;
   margin: 0 auto;
   height: 42px;
-  margin-bottom: 10px;
+  margin-top: 20px;
   background-color: #d0ffff;
   border-radius: 10px;
+  border: 0;
 }
 .fiv_con button a {
   font-size: 16px;
