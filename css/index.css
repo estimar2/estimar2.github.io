@@ -8,6 +8,10 @@
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
+button {
+  border: 0;
+  outline: 0;
+}
 ul {
   list-style: none;
 }
